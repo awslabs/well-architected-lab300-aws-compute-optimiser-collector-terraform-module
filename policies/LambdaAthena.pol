@@ -1,0 +1,23 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Action": [
+                "athena:*", 
+                "s3:*",
+                "ses:*", 
+                "logs:*",
+                "sns:*",
+                "cloudwatch:*",
+                "cloudformation:*",
+                "iam:*",
+                "glue:*", 
+                "lambda:*", 
+                "organizations:Describe*",
+                "organizations:List*", 
+                "sqs:SendMessage"            ],
+            "Effect": "Allow",
+            "Resource": "*"
+        }
+    ]
+}
